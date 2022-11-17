@@ -1,0 +1,115 @@
+.header-main-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px 0;
+}
+.header-top-wrapper.custom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+}
+.top-header-left,.top-header-middle,.top-header-right{
+    width: 33.3%;
+}
+.top-header-left-bottom-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+.top-header-middle{
+    text-align: center;
+}
+.top-header-middle img{
+    width: 200px;
+}
+.top-header-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.header-bottom-wrapper{
+    position: relative;
+    display: flex;
+    flex-flow: column;
+}
+nav.header-navlink {
+    justify-content: center;
+}
+ul.header-ul {
+    list-style: none;
+    margin: 0;
+    min-height: 60px;
+    --decoration-height: 2px;
+    padding: 0;
+    transition: min-height .3s,height .3s,width .3s,max-width .3s,opacity .3s;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+ul.header-ul li {
+    margin: 0 15px;
+    position: static;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    min-height: 60px;
+    transition:all 0.5s ease;
+}
+a.header-navlink {
+    text-decoration: none;
+}
+h4.top-header-left-upper-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1rem;
+    color: #00000054;
+}
+h4.top-header-left-bottom-text {
+    line-height: 1.4em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+i.fa-solid.fa-headphones-simple {
+    color: #D69783;
+    margin-right: 6px;
+}
+a.header-navlink {
+    color: #0000009C;
+    font-weight: 400;
+    line-height: 1.6rem;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid transparent;
+    transition:all 0.2s ease;
+}
+a.header-navlink:hover{
+    color: #111;
+    border-bottom: 2px solid #D08872;
+    transition:all 0.2s ease;
+}
+a.header-navlink.active {
+    color: #111;
+    border-bottom: 2px solid #D08872;
+    transition:all 0.2s ease;
+}
+.top-header-right > *{
+    margin: 0 0 0 20px;
+}
+.top-header-right i {
+    font-size: 20px;
+}
+span.MuiBadge-root.MuiBadge-root.css-1c32n2y-MuiBadge-root {
+    top: -3px;
+}
+span.MuiBadge-badge.MuiBadge-standard.MuiBadge-anchorOriginTopRight.MuiBadge-anchorOriginTopRightRectangular.MuiBadge-overlapRectangular.MuiBadge-colorPrimary.MuiBadge-badge.css-106c1u2-MuiBadge-badge {
+    background:#d08872;
+}
